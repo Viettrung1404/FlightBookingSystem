@@ -31,6 +31,10 @@ namespace FlightBookingWeb
                 name: "default",
                 pattern: "{controller=Home}/{action=Index}/{id?}");
 
+            app.MapControllerRoute(
+                name: "BookingTicket",
+                pattern: "b/{action=Book}/{id?}"
+              );
             app.Run();
         }
     }
