@@ -2,6 +2,7 @@ namespace FlightBookingWeb
 {
     public class Program
     {
+        public string concactrungtovl = "https://localhost:44300/"; // URL to the APIdasdsadsdhsakjdhsjdhsakjdj
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
